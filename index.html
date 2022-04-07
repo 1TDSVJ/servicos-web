@@ -5,12 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/mail.png">
+        
+        <style>
+            ul{
+                list-style: square;
+                background-color: aqua;
+                display: block;
+            }
+
+
+        </style>
     </head>
     <body>
         
         <nav>
             <a href="#">Serviços Remotos</a>
-            <ul>
+            <ul style="display: inline;background-color: aqua;color: aqua;">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#imagens">Imagens</a></li>
@@ -20,16 +33,16 @@
 
         <header id="topo">
             <h1>Serviços Remotos</h1>
-            <p>
+            <p class="brilhante">
                 Prestamos serviços nas mais diversas áreas, onde remotamente podemos estar auxiliando nossos clientes.
             </p>
             <p>
                 Os serviços incluem: Desenvolvimento Web, Workshops Remotos, Segurança da Informação e curso das linguagens que estão no topo da lista das mais utilizadas do mercado.
             </p>
-            <p>
+            <p id="topo-p">
                 Não falamos por nós, deixamos que o nosso trabalho e nossos clientes respondam.
             </p>
-            <a href="#servicos">Ver mais...</a>
+            <a href="#servicos" class="brilhante">Ver mais...</a>
         </header>
         
         <section id="#sobre">
@@ -43,7 +56,7 @@
         </section>
 
         <section id="servicos">
-            <h2>Serviços</h2>
+            <h2 class="brilhante">Serviços</h2>
             <div>
                 <img src="./img/desenvolvimento.jpg" alt="Monitor" width="20%">
                 <p> Desenvolvimento Web</p>
