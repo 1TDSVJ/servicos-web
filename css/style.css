@@ -1,0 +1,24 @@
+
+ul{
+    list-style: circle;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header p{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#topo-p{
+    background-color: hsl(160, 96%, 38%);
+    color: black;
+}
+
+.brilhante{
+    color: #0000ff;
+    font-family: 'Courier New';
+    font-size: 2em;
+}
