@@ -1,0 +1,29 @@
+header{
+    color: white;
+   background-color: blue;
+}
+
+ul{
+    display: block;
+    list-style: circle;
+}
+
+
+body {
+    background-color: rgb(238, 42, 8);
+}
+
+p{
+    background-color: rgb(202, 18, 49);
+    color: white;
+}
+#topo-p{
+    background-color: rgba(0,0, 255, 0.2333);
+    color: rgb(5, 5, 5);
+}
+
+.brilhante{
+    color: rgb(240, 171, 171);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
