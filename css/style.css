@@ -1,0 +1,24 @@
+ul {
+  list-style: circle;
+}
+
+body {
+  background-color: burlywood;
+}
+
+header p {
+  background-color: rgba(45, 15, 120, 0.302);
+  color: #fff;
+}
+
+#topo-p {
+  background-color: rgba(15, 120, 50, 0.394);
+  color: rgb(29, 29, 29);
+}
+
+.brilhante {
+  color: #0000ff;
+  font-family: 'Courier New';
+  font-size: 2em;
+
+}
