@@ -1,0 +1,18 @@
+body{
+    background-color:rgba(148, 66, 28, 0.719) ;
+}
+
+#topo-nav{
+    font-weight: 900;
+}
+
+#topo-p{
+    background-color: rgba(148, 235, 19, 0.575);
+}
+
+.brilhante{
+    color:#0000FF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;    
+}
+
