@@ -1,0 +1,27 @@
+
+ul{
+    list-style: square;
+    background-color: aquamarine;
+    display: block;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header{
+    background-color:cornflowerblue;
+    color: #fff
+    ;
+}
+
+#topo-p{
+    background-color: darkslategray;
+    color: black;
+}
+
+.brilhante{
+    color: blue;
+    font-family: 'Courier New';
+    font-size: 2em;
+}
