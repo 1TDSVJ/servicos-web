@@ -1,0 +1,17 @@
+ul{
+    list-style: armenian;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header p{
+    background-color: rgba(0, 0, 255);
+    color: #fff;
+}
+
+#topo-p {
+    background-color: rgba(0, 255, 0);
+    color: #000;
+}
