@@ -1,0 +1,10 @@
+
+ul{
+    list-style: circle;
+}
+body{
+    background-color: darkgray;
+}
+header p{
+    background-color:rgba(5, 9, 252, 0);
+}
