@@ -3,7 +3,7 @@ ul {
 }
 
 body {
-    background-color: burlywood;
+    background-color:khaki;
 }
 
 header p {
@@ -20,4 +20,31 @@ header p {
     color: #0000FF;
     font-family: 'Courier New';
     font-size: 2em;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+table th,td{
+    border: 2px solid #000;
+}
+table th{
+    background-color: rgb(71, 99, 160);
+}
+
+table th:nth-child(even){
+    background-color: rgb(75, 167, 128);
+}
+
+table tr:nth-child(odd){
+    background-color: #cccc;
+}
+
+table tr:nth-child(even){
+    background-color: rosybrown;
+}
+table tr:hover{
+    background-color: seashell;
 }
