@@ -1,0 +1,43 @@
+ul{
+    list-style: circle;
+}
+
+body {
+    background-color: blueviolet;
+    display: block;
+}
+
+header p{
+    background-color: aqua;
+    color: blue;
+}
+topo-p {
+    background-color: black;
+    color: brown;
+}
+
+.brilhante{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+table {
+    border: 2px solid rgb(211, 15, 15);
+    border-collapse: collapse;
+}
+table th,td {
+    border: 2px solid rgb(84, 73, 197);
+}
+
+table tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+table tr:nth-child(even){ 
+    background-color: brown;
+}
+
+table tr:hover{ 
+    background-color: rgb(237, 22, 162);
+}
