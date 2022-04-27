@@ -30,7 +30,10 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
 }
-
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
 
 table, th, td{
     border: 2px solid black;
