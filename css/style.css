@@ -16,3 +16,19 @@ body{
     font-weight: 400;    
 }
 
+table{
+    border: 2px solid #000;
+    border-collapse:collapse;
+}
+
+table th, td{
+    border: 2px solid #000;
+}
+
+table tr:nth-child(odd){
+    background-color: #a9a9a9;
+}
+
+table tr:nth-child(even){
+    background-color: #525151;
+}
