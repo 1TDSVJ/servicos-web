@@ -22,3 +22,24 @@ header p {
   font-size: 2em;
 
 }
+
+table{
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+table th,td{
+border:2px solid #000;
+
+}
+table tr:nth-child(odd){
+    background-color: #cccc;
+}
+
+table tr:nth-child(even){
+  background-color: brown;
+} 
+
+table tr:hover{
+  background-color: rgb(48, 44, 44);
+}
