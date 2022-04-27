@@ -1,6 +1,6 @@
 header{
     color: white;
-   background-color: blue;
+   
 }
 
 ul{
@@ -8,14 +8,17 @@ ul{
     list-style: circle;
 }
 
+.direitos{
+    color: bisque;
+}
 
 body {
-    background-color: rgb(238, 42, 8);
+    background-color: rgba(146, 132, 129, 0.884);
 }
 
 p{
-    background-color: rgb(202, 18, 49);
-    color: white;
+    
+    color: rgb(8, 8, 8);
 }
 #topo-p{
     background-color: rgba(0,0, 255, 0.2333);
@@ -23,7 +26,19 @@ p{
 }
 
 .brilhante{
-    color: rgb(240, 171, 171);
+    color: rgb(50, 112, 228);
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
+}
+
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table tr:nth-child(odd){
+    background-color: #ccc;
+}
+table tr:hover{
+    background-color:rgb(230, 18, 18);
 }
