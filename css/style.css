@@ -17,3 +17,20 @@ header p{
     font-family: 'Courier New';
     font-size: 2em;
 }
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(0,0,0)
+}
+
+table th, td{
+    border: 2px solid rgb(0,0,0);
+}
+
+table tr:nth-child(odd){
+    background-color: #cccc;
+}
+
+table tr:nth-child(even){
+    background-color: rgba(40, 20, 220, 0.363);
+}
