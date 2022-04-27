@@ -44,3 +44,7 @@ table tr:hover{
     background-color: rgb(217, 255, 0);
 }
 
+legend{
+    text-align: center;
+    font-weight: bolder;
+}
