@@ -6,21 +6,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
 
+        <script src="./js/script.js" defer></script>
+
+        <script>
+
+            console.log('Mensagem que veio do HEAD')
+
+        </script>
+
         <link rel="stylesheet" href="./css/style.css">
         <link rel="icon" href="./img/psg.png">
-       <!-- <style>
-                ul {
+        
+        <style>
+            ul {
                     list-style: square;
+                    background-color: aqua;
+                    display: block;
                 }
-        </style>-->
+        </style>
 
     </head>
 
     <body>     
 
         <nav>
+
+            <!-- <button onclick="console.log('Olá Mundo!')">CLICK</button> -->
+           <button id="botao">CLICK</button>
             <a href="topo">Serviços Remotos</a>
-            <ul> 
+            <ul style="display: inline;background-color: aqua; color: aqua;"> 
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#imagens">Imagens</a></li>
@@ -213,7 +227,13 @@
                     </ul>
                 </nav>
             </footer>
-        </section>   
+
+        <script>
+            
+            console.log('Mensagem que veio do Body')
+
+        </script>
+
     </body>
 </html>
 
