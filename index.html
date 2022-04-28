@@ -6,6 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
 
+    <script src="./js/script.js" defer></script> <!--JS carrega mais rápido que o HTML, portanto pode dar erro. Para contornar, basta adicionar o defer-->
+
+        <script>
+
+            console.log('Mensagem que veio de HEAD!')
+
+        </script>
+
         <link rel="stylesheet" href="./css/style.css">
         <link rel="icon" href="./img/mail.png">
 
@@ -19,6 +27,9 @@
     <body>
 
         <nav id="topo-nav"> 
+            <!--<button onclick="console.log('Olá Mundo')">CLICK</button>-->
+            <button id="botao">CLICK</button>
+
             <a href="#">Serviços Remotos</a>
             <!--ul>li*4>a[href="#sobre"][target="_blank"]>{Sobre} -> Emmet abreviation-->
             <!--Dentro do ul SOMENTE LI-->
@@ -79,19 +90,19 @@
            <h2>Imagens</h2>
 
             <div>
-                <img src="./img/backbone.jpg" alt="Backbone" width="100%">
-                <img src="./img/cidade.jpg" alt="Cidade" width="100%">
-                <img src="./img/comunicao.jpg" alt="Dados se conectando" width="100%">
-                <img src="./img/icones.png" alt="ícones" width="100%">
-                <img src="./img/internet.jpg" alt="Rede Mundial" width="100%">
-                <img src="./img/rede.jpg" alt="Conexão de Computadores" width="100%">
+                <img src="./img/backbone.jpg" alt="Backbone" width="20%">
+                <img src="./img/cidade.jpg" alt="Cidade" width="20%">
+                <img src="./img/comunicao.jpg" alt="Dados se conectando" width="20%">
+                <img src="./img/icones.png" alt="ícones" width="20%">
+                <img src="./img/internet.jpg" alt="Rede Mundial" width="20%">
+                <img src="./img/rede.jpg" alt="Conexão de Computadores" width="20%">
             </div>
 
             <div>
                 <table>
                     <thead> <!--Indice das colunas da tabela-->
                         <tr><!--Linha da tabela-->
-                            <th colspan="2"<!--Mesclando tabelas-->>ID - FABRICANTE</th><!--Coluna da tabela-->
+                            <th colspan="2"<!--Mesclando tabelas-->ID - FABRICANTE</th><!--Coluna da tabela-->
                             <th>MODELO</th>
                         </tr>
                     </thead>
@@ -153,6 +164,12 @@
             <p>Todos os direitos reservados. 2022&copy;</p>
 
         </footer>
+
+        <script>
+
+            console.log('Mensagem que veio de HEAD!')
+
+        </script>
 
     </body>
 </html>
