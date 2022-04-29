@@ -5,12 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
+
+        <script src="./js/script.js" defer></script>
+
+        <script>
+
+            console.log('Mensagem que veio do HEAD!')
+
+        </script>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/mail.png">
+        
+        <style>
+            ul{
+                list-style: square;
+                background-color: aqua;
+                display: block;
+            }
+
+
+        </style>
     </head>
     <body>
         
         <nav>
+
+            <!--<button onclick="console.log('Olá Mundo!')">CLICK</button>-->
+            <button id="botao">CLICK</button>
             <a href="#">Serviços Remotos</a>
-            <ul> 
+            <ul style="display: inline;background-color: aqua;color: aqua;">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#imagens">Imagens</a></li>
@@ -20,91 +44,90 @@
 
         <header id="topo">
             <h1>Serviços Remotos</h1>
-            <p>
+            <p class="brilhante">
                 Prestamos serviços nas mais diversas áreas, onde remotamente podemos estar auxiliando nossos clientes.
             </p>
             <p>
                 Os serviços incluem: Desenvolvimento Web, Workshops Remotos, Segurança da Informação e curso das linguagens que estão no topo da lista das mais utilizadas do mercado.
             </p>
-            <p>
+            <p id="topo-p">
                 Não falamos por nós, deixamos que o nosso trabalho e nossos clientes respondam.
             </p>
-            <a href="#servicos">Ver mais...</a>
+            <a href="#servicos" class="brilhante">Ver mais...</a>
         </header>
         
         <section id="#sobre">
             <h2>Sobre</h2>
-               <p>
-                Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas. É uma aplicação prática do conhecimento científico em diversas áreas de pesquisa.
-               </p>
-        
-           
+            <p>
+                Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.
+            </p>
+            <p>
+                É uma aplicação prática do conhecimento científico em diversas áreas de pesquisa.
+            </p>
         </section>
 
         <section id="servicos">
-            <h2>Serviços</h2>
-            
+            <h2 class="brilhante">Serviços</h2>
             <div>
-                <h2>Desenvolvimento Web</h2>
-                <p>Trabalhamos com desenvolvimento de páginas na web.</p>
-                <img src="./img/desenvolvimento.jpg" alt="ilustracao com aparelhos tecnologicos"width=20%>
+                <img src="./img/desenvolvimento.jpg" alt="Monitor" width="20%">
+                <p> Desenvolvimento Web</p>
             </div>
-                
             <div>
-                <h2>Workshops Remotos</h2>
-                <p>Trabalhamos realizando workshops remotos por todo o mundo.</p>
-                <img src="./img/eventos.jpg" alt="fone de ouvido"width=20%>
+                <img src="./img/eventos.jpg" alt="Fone de Ouvido" width="20%">
+                <p>Workshops Remotos</p>
             </div>
-                
             <div>
-                <h2>Segurança da Informação</h2>
-                <p>Garantimos a segurança de toda a página e suas informações.</p>
-                <img src="./img/seguranca-info.png" alt="escritas apoiando a seguranca da informacao"width=20%>
+                <img src="./img/seguranca-info.png" alt="Nuvem de Palavras" width="20%">
+                <p>Segurança da Informação</p>
             </div>
-                
             <div>
-                <h2>Cursos de Programação</h2>
-                <p>Realizamos cursos das linguagens mais utilizadas no mercado pelo mundo.</p>
-                <img src="./img/cursos.png" alt="notebook"width=20%>
+                <img src="./img/cursos.png" alt="Notebook" width="20%">
+                <p>Cursos de Programação</p>
             </div>
-        
         </section>
-        
+
         <section id="imagens">
             <h2>Imagens</h2>
-            <div><img src="./img/backbone.jpg" alt="backbone"width=100%></div>
-            <div><img src="./img/cidade.jpg" alt="cidade"width=100%></div>
-            <div><img src="./img/comunicao.jpg" alt="rede de comunicacao"width=100%></div>
-            <div><img src="./img/icones.png" alt="icone"width=100%></div>
-            <div><img src="./img/internet.jpg"alt="internet"width=100%></div>
-            <div><img src="./img/rede.jpg"alt="Conexão de computadores"width=100%></div>
+            <img src="./img/backbone.jpg" alt="Backbone" width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade" width="100%">
+            <img src="./img/comunicao.jpg" alt="Dados se Conectando" width="100%">
+            <img src="./img/icones.png" alt="Icones" width="100%">
+            <img src="./img/internet.jpg" alt="Rede Mundial" width="100%">
+            <img src="./img/rede.jpg" alt="Conexão de Computadores" width="100%">
         </section>
 
-        
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <div>
+                
+                <p><img src="./img/tel.png" alt="Telefone"> <a href="tel:+5511987656745">(11)9 8765-6745</a></p>
 
-       <section id="contato">
-           <h2>Fale Conosco</h2>
-           <div>
-               <p><img src="./img/tel.png" alt="Telefone"><a href="tel:+5511987656745">(11)9 8765-6745</a></p>
-               <p><img src="./img/mail.png" alt="Envelope"><a href="mailto:rm94669@fiap.com.br">rm94669@fiap.com.br</a></p>
-           </div>
-       </section>
-
-        <hr>
+                <p><img src="./img/mail.png" alt="Envelope"> <a href="RM94669@fiap.com.br">RM94669@fiap.com.br</a></p>
+                
+            </div>
+        </section>
 
         <footer>
+            
+            <ul>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+            </ul>
+
             <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>RM94669</span></p>
+            <p>Desenvolvido por <span>PF0670</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
-            <h3>Rede Sociais</h3>
-            <nav>
-            <ul style="list-style: none;">
-                <li> <a href="https://www.instagram.com" target="_blank">Instagram</a> </li>
-                <li> <a href="https://www.facebook.com/" target="_blank">Facebook</a> </li>
-                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-             </ul>
-            </nav>
+
         </footer>
 
+        <script>
+
+            console.log('Mensagem que veio do Body')
+            
+        </script>
+
+
     </body>
+
 </html>
