@@ -1,7 +1,7 @@
 //Comentário de Linha em JS
 /*
     Comentário de Bloco
-*/
+
 //Mensagem de console vinda do arquivo externo JS.
 // console.log('Mensagem que veio do arquivo Externo.')
 // document.write('Escrevendo uma mensagem com document!')
@@ -47,3 +47,59 @@ elementoBotao.addEventListener("mouseout",function(){
     elementoBotao.style.height = "50px"
     elementoBotao.style.width = "100px"
 })
+*/
+
+var nome = "Alê"
+
+//ARRAY - Vetores
+var nomes = ["Alê", "Carlos", "João", "Maria"]
+
+//Acessando um elemento do array
+console.log("Conteúdo do array: " + nomes[0])
+
+//Tamanho do array
+console.log("Tamanho do array: " + nome.length)
+
+//Adicionando elementos ao final do array
+nomes.push("Pedro")
+console.log("Conteúdo do array:" + nomes[4])
+
+//Adicionando elementos ao inicio do array
+nomes.unshift("Ana")
+console.log("Conteúdo do array: " + nomes[0])
+
+//Removendo elementos do final do array
+nomes.pop()
+console.log("Conteúdo do array: " + nomes[3])
+
+//Removendo elementos do inicio do array
+nomes.shift()
+console.log("Conteúdo do array: " + nomes[0])
+
+//Localizando um elemento do array
+console.log("Localizando um elemento do array: " + nomes.indexOf("Carlos"))
+
+//Removendo um elemento do array com localização
+let posicao = nomes.indexOf("João")
+nomes.splice(posicao,1)
+
+//interando array
+for(let i = 0; i < nomes.length; i++){
+    console.log("Valor de nomes: " + nomes[i])
+}
+
+//LOOP FOR OF -  Iteraendo um array
+for(let nome of nomes){
+    console.log("Valor de nomes: " + nome)
+}
+
+//FOR IN - iterando um objeto
+for(let indice in nomes){  //indice é um indice do array
+    console.log("Valor de pessoa: " + nomes[indice])
+}
+
+
+
+
+
+
