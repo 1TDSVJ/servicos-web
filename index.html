@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
 
-            <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js" defer></script>
+
+        <script>
+
+            console.log('Mensagem que veio do HEAD!')
+
+        </script>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <!--
+        <style>
+            ul{
+                list-style-type: square;
+            }
+        </style>-->
 
     </head>
 
     <body>
-        
+
         <nav id="topo-nav">
-            <a href="#topo">Serviços Remotos</a>
-            <ul> 
+            <a href="#topo">Serviços Remotos</a></nav>
+            <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#imagens">Imagens</a></li>
@@ -22,99 +37,234 @@
             </ul>
         </nav>
 
+        <hr>
+
         <header id="topo">
-            <h1>Serviços Remotos</h1>
-            <p>
-                Prestamos serviços nas mais diversas áreas, onde remotamente podemos estar auxiliando nossos clientes.
+            <h1 style="text-align: center;">Serviços Remotos</h1>
+            <p class="brilhante">
+                Prestamos serviços nas mais diversas áreas, onde remtamente podemos estar auxiliando nossos clientes.
             </p>
+
             <p>
-                Os serviços incluem: Desenvolvimento Web, Workshops Remotos, Segurança da Informação e curso das linguagens que estão no topo da lista das mais utilizadas do mercado.
+                Os serviços incluem: Desenvolvimento Web, Workshops Remotos, Segurança da Informação e Cursos das Linuagens que 
+                estão no topo da lista das mais utilizadas do mercado
             </p>
-            <p>
+
+            <p id="topo-p">
                 Não falamos por nós, deixamos que o nosso trabalho e nossos clientes respondam.
             </p>
             <a href="#servicos">Ver mais...</a>
         </header>
         
-        <section id="#sobre">
-            <h2>Sobre</h2>
+        <hr>
 
-            <div> 
-                <img src="./img/html.jpg" alt="" width="20%">
-            </div>
-
-            <!-- Criar as próximas DIVs de serviços com as respectivas imagens -->
-        </section>
-
-        <section id="servicos">
-            <h2>Serviços</h2>
-            
-            <div>
-                <h2>Desenvolvimento Web</h2>
-                <p>Trabalhamos com desenvolvimento de páginas na web.</div>
-                <img src="./img/desenvolvimento.jpg" alt="ilustracao com aparelhos tecnologicos" width = "20%">
-            </div>
-                
-            <div>
-                <h2>Workshops Remotos</h2>
-                <p>Trabalhamos realizando workshops remotos por todo o mundo.</p>
-                <img src="./img/eventos.jpg" alt="fone de ouvido" width = "20%">
-            </div>
-                
-            <div>
-                <h2>Segurança da Informação</h2>
-                <p>Garantimos a segurança de toda a página e suas informações.</p>
-                <img src="./img/seguranca-info.png" alt="escritas apoiando a seguranca da informacao"  width = "20%">
-            </div>
-                
-            <div>
-                <h2>Cursos de Programação</h2>
-                <p>Realizamos cursos das linguagens de programação mais utilizadas no mercado pelo mundo.</p>
-                <img src="./img/cursos.png" alt="imagem de aprendizado com icones das linguagens mais utilizadas no mundo"  width = "20%">
-            </div>
-        
-        </section>
-        
-        <section id="imagens">
-            <h2>Imagens</h2>
-            <img src="./img/backbone.jpg" alt="rede de computadores" width = "100%">
-            <img src="./img/cidade.jpg" alt="cidade conectada" width = "100%">
-            <img src="./img/comunicao.jpg" alt="rede de comunicacao" width = "100%">
-            <img src="./img/internet.jpg" alt="rede de internet" width = "100%">
-            <img src="./img/icones.png" alt="icones" width = "100%">
-        </section>
-
-        
-
-        <section id="contato">
-            <h2>Contatos</h2>
-            <p>Fale conosco</p>
-            <div>
-                <img src="./img/tel.png" alt="icone de telefone">
-                <p><a href="tel:11995645589">(11)99564-5589</a></p>
-            </div>
+        <section id="sobre">
+            <h2 class="brilhante">Sobre</h2>
+            <p>
+                Sabemos que o trabalho em Tech mudou. As profissões se tornaram mais líquidas e as fronteiras entre elas já não estão bem definidas. 
+                Apenas se especializar em desenvolvimento de software não basta para ser um bom dev. Para realmente entregar resultados é necessário que, 
+                além de aprofundar e mergulhar de cabeça na sua área, você também navegue em outras vertentes de tecnologia, como UX, Marketing Digital ou Data Science, por exemplo.
+            </p>
 
             <div>
-                <img src="./img/mail.png" alt="icone de email">
-                <p><a href="mailto:rm94707@fiap.com.br">rm94707@fiap.com.br</a></p>
+                <img src="./img/desenvolvimento.jpg" alt="foto de um monitor" width="20%"> 
             </div>
+
+            <p>
+                Somos uma <strong>empresa de tecnologia</strong> que presta serviços remotos para diversos clientes, seguimos as tendência do mercado e sempre 
+                disponibilizamos cursos relacionados aos conteúdos que estão no topos das listas, sempre focando em prestar serviços com <strong>excelência e suma qualidade</strong>.
+            </p>
+
+            <p>
+                Para conhecer melhor nossos serviços basta continuar lendo nosso site, no qual esclareceremos e especificaremos melhor as vertentes e extensões, 
+                além do funcionamento, dos nossos serviços.
+            </p>
         </section>
 
         <hr>
 
-        <footer>
+        <section id="servicos">
+            <h2 style="text-align: center;">Serviços</h2>
+            <!--Desenvolvimento Web, Workshops Remotos, Segurança da Informação e Cursos das Linuagens que estão no topo da lista-->
+            <p>
+                Os crusos que nós disponibilizamos são os cursos de <strong>Desenvolvimento Web</strong> , <strong> Workshops Remotos</strong> , 
+                <strong> Segurança da Informação</strong>  e <strong> Cursos das Linuagens que estão no topo da lista</strong>, venha conosco para 
+                entender o que cada um desses cursos engloba.
+            </p>
+
+            <h3>Desenvolvimento Web:</h3>
+
+            <div>
+                <img src="./img/icones.png" alt="icones de apps" width="20%">
+            </div>
+
+            <p>
+                O <strong>curso de Desenvolvimento Web</strong>, com duração de 1 ano, qualifica os futuros profissionais do setor para que projetem, desenvolvam, 
+                implementem e avaliem sites da internet e intranet e sistemas de comércio eletrônico, além de aplicativos de plataformas móveis.A graduação oferece 
+                amplo conhecimento a respeito das diretrizes para a criação de interfaces próprias à aplicação, considerando necessidades, usabilidade, ergonomia e 
+                público-alvo. No curso, você <strong>aprenderá a realizar avaliações, vistorias, perícias, laudos e parecer técnico referente à Dev Web</strong>. 
+            </p>
+
+            <h4>Conteúdos do curso:</h4>
+
+
+            <ul>
+               <li>Análise Orientada a Objetos;</li>
+               <li>Linguagem de Programação;</li>
+               <li>Análise e Modelagem de Sistemas;</li>
+               <li>esenvolvimento Orientado ao Objeto;</li>
+               <li>Programação e Desenvolvimento de Banco de Dados;</li>
+               <li>Desenvolvimento em JavaScript;</li>
+               <li>Desenvolvimento Responsivo;</li>
+               <li>Algoritmos e Programação Estruturada;</li>
+               <li>Lógica Computacional.</li>
+            </ul>
+
+            <h3>Workshops Remotos:</h3>
+
+            <div>
+                <img src="./img/eventos.jpg" alt="fone de ouvido" width="20%">
+            </div>
+
+            <p>
+                Em nossos Workshops nós diponibilizamos vídeos, textos, imagens, além da interação com um intrutor e palestrante, além da disponibilização de atividades práticas 
+                com o enfoque no aperfeiçoamento conjunto e pessoal com o intuíto de se aprofundar de maneira objetiva no tema escolhido, nossos Workshops são marcados com um mês 
+                de antecedência com vagas limitadas e temas predefinidos, então fique de olho e não perca tempo!
+            </p>
+
+            <h3>Segurança da Informação:</h3>
+
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras" width="20%">
+            </div>
+
+            <p>
+                <strong>Você vai se preparar para</strong>:Aumentar o nível de segurança de todos os ambientes e devices, incluindo Cloud, IA e IoT, desenvolvendo gestões 
+                eficientes e seguras para ativos de redes, vulnerabilidades, patch e hotfixes. Promover a atualização e monitoração de Segurança, Políticas, Conformidades e Backups. 
+                Propor ações proativas para diminuir os riscos de ataques virtuais, tornando o ambiente operacional controlado e seguro. Identificar novos mecanismos de segurança que 
+                sejam tão ágeis e inteligentes quanto as tecnologias dos negócios digitais. Utilizar Microssegmentação e Inteligência Artificial, uma abordagem inovadora que permite 
+                estender a segurança dos elementos da tecnologia tradicional para novos ambientes.
+            </p>
+
+            <h3>Cursos de linguagens disponíveis</h3>
+
+            <div>
+                <img src="./img/cursos.png" alt="Notebook" width="20%">
+            </div>
+
+            <ul>
+                <li>Python;</li>
+                <li>Java;</li>
+                <li>Javascript, HTML5 e CSS;</li>
+                <li>C#;</li>
+                <li>C++.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="imagens">
+            <h2>Sessão de Imagens</h2>
+
+            <div>
+                <img src="./img/backbone.jpg" alt="blackbone" width="20%">
+                <img src="./img/cidade.jpg" alt="Cidade" width="20%">
+                <img src="./img/comunicao.jpg" alt="rede de comunicacao" width="20%">
+                <img src="./img/fundo-pc.jpg" alt="deskotp de pc" width="20%">
+                <img src="./img/internet.jpg" alt="internet global" width="20%">
+                <img src="./img/rede.jpg" alt="rede de internet" width="20%">
+            </div>
+
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>FABRICANTE</th>
+                            <th>MODELO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 </td>
+                            <td>FORD</td>
+                            <td>Ka</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>GM</td>
+                            <td>Celta</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>3</td>
+                            <td>FIAT</td>
+                            <td>Uno</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>VW</td>
+                            <td>Fusca</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="contato">
+
+            <div>
+                <form action="index.html" method="GET">
+                    <fieldset>
+                        <legend>CONTATO</legend>
+                        <div>
+                            <label for="nmCliId">Nome</label>
+                            <input type="text" name="nmCli" id="nmCliId">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+        
+        <hr>
+
+        <footer id="rodapé">
             <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>RM94707</span></p>
-            <p>Todos os direitos reservados. 2022&copy;</p>
-            <h3>Rede Sociais</h3>
-            <nav>
-            <ul style="list-style: none;">
-                <li> <a href="https://www.instagram.com" target="_blank">Instagram</a> </li>
-                <li> <a href="https://www.facebook.com/" target="_blank">Facebook</a> </li>
-                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-             </ul>
+            
+            <p>Desenvolvido por <span>RM94615</span></p>
+            <p>Todos os direitos reservador. 2022&copy;</p>
+           
+            <nav id="topo-nav">
+                <p>Redes Sociais:</p>
+                <ul>
+                   <li><a href="https://www.instagram.com/vinireis/" target="_blank_"> <img src="./img/instagram.png" alt="instagram" width="3%"></a>  Instagram</li>
+                   <li><a href="https://github.com/viniciusreis2810" target="_blank_"> <img src="./img/github.png" alt="github" width="3%"></a>  GitHub</li>
+                </ul>
             </nav>
         </footer>
 
+        <script>
+
+            console.log('Mensagem que veio do Body!')
+
+        </script>
+
     </body>
 </html>
+
+           <!-- <h2>Fale conosco</h2>
+            <div>
+                <p>
+                    <img src="./img/tel.png" alt="icone telefone"> 
+                    <a href="tel:11971776964">(11) 9 6486-2019</a>
+                </p>
+                <p>
+                    <img src="./img/mail.png" alt="icone email"> 
+                    <a href="mailto:vinireis_2810@icloud.com">vinireis_2810@icloud.com</a>
+                </p>
+            </div> --> 
