@@ -1,6 +1,8 @@
+/*
 //Comentario de linha em JS
+
 /* comentario de bloco
-*/
+
 //mensagem de console vinda do arquivo externo JS
 //console.log('Mensagem que veio do arquivo externo.')
 //document.write('Escrevendo uma mensagem com Document!')
@@ -45,3 +47,49 @@ elementoBotao.addEventListener("mouseout",function(){
     elementoBotao.style.height = "20px"
     elementoBotao.style.width = "20px"
 })
+*/
+var nomes = ["Nicholas", "Calegari"]
+
+//acessando um elemento array
+console.log("Conteudo do array: " + nomes[0])
+
+//tamanho do array
+console.log("Tamanho do array : " + nomes.length)
+
+//adicionando elementos no inicio do array
+nomes.push("Mitroncio")
+console.log("Conteudo do array : " + nomes[0])
+
+//adicionando elementos no final do array
+nomes.push("Rodolfo")
+console.log("Conteudo do array : " + nomes[4])
+
+//removendo elementos do final do array
+nomes.pop()
+console.log("Conteudo do array : " + nomes[3])
+
+//removendo elementos do inicio do array
+nomes.shift()
+console.log("Conteudo do array : " + nomes[0])
+
+//localizando um elemento no array
+console.log("Localizando um elemento no array : " + nomes.indexOf("Nicholas"))
+
+//removendo m elemento do array com localizacao
+let posicao = nomes.indexOf("Nicholas")
+nomes.splices(posicao,1)
+    
+//iterando um array
+for(let i = 0; i < nomes.length; i++){
+    console.log("Nome : " + nomes[i])
+}
+
+//loop for of - interando um array
+for(let nome of nomes){//nome e um elemento do array}
+    console.log("Valor de nomes : " + nome)
+}
+
+//for in - Interando um objeto
+for(let prop in pessoa){
+    console.log("Valor de pessoa : " + nomes[indice])
+}
