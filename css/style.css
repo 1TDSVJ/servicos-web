@@ -1,10 +1,49 @@
 
 ul{
-    list-style: circle;
+    list-style: square;
+    background-color: aquamarine;
+    display: block;
 }
+
 body{
-    background-color: darkgray;
+    background-color: burlywood;
 }
-header p{
-    background-color:rgba(5, 9, 252, 0);
+
+header{
+    background-color:cornflowerblue;
+    color: #fff
+    ;
+}
+
+#topo-p{
+    background-color: darkslategray;
+    color: black;
+}
+
+.brilhante{
+    color: blue;
+    font-family: 'Courier New';
+    font-size: 2em;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid #000;
+
+}
+
+table th, td{
+    border: 2px solid #000;
+}
+
+table tr:nth-child(odd){
+    background-color: #cccc;
+}
+
+table tr:nth-child(even){
+    background-color: #bd7070cc;
+}
+
+table tr:hover{
+    background-color: darkslategray;
 }
