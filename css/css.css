@@ -3,7 +3,7 @@ ul {
 }
 
 body {
-    background-color:khaki;
+    background-color:rgb(123, 170, 166);
 }
 
 header p {
@@ -17,7 +17,7 @@ header p {
 }
 
 .brilhante {
-    color: #0000FF;
+    color: #0000ff;
     font-family: 'Courier New';
     font-size: 2em;
 }
@@ -31,7 +31,7 @@ table th,td{
     border: 2px solid #000;
 }
 table th{
-    background-color: rgb(71, 99, 160);
+    background-color: rgb(105, 124, 165);
 }
 
 table th:nth-child(even){
