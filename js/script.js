@@ -9,13 +9,13 @@
 
 // Declaração de variáveis com var.
 // Basicamente o que se tem com var é o escopo aumentado.
-var nome = "Alê"
-//utilize para concatenação o simbolo ( + )
+/*var nome = "Kauã"
+utilize para concatenação o simbolo ( + )
 console.log('Meu nome é : ' + nome)
 
 function sobrenome(){
     //A declaração com let é restrita a escopo menores.
-    let snome = "Carlos"
+    let snome = "Borge"
     console.log('Meu sobrenome : ' + snome )
     console.log('Nome completo : ' + nome + " " + snome)
     
@@ -47,3 +47,59 @@ elementoBotao.addEventListener("mouseout",function(){
     elementoBotao.style.height = "50px"
     elementoBotao.style.width = "100px"
 })
+// */
+
+
+var nomes = ["Ale" ,"Carlos", "João", "Maria"]
+
+// Acessando um elemento do Array
+console.log("Conteudo do array: " + nomes[2])
+
+//Tamanho do Array
+console.log("Tamanho do array: " + nomes.length)
+
+//Adicionando elementos ao final do Array
+nomes.push("Pedro")
+console.log("Conteúdo do Array: " + nomes[4])
+
+//Adicionando elementos ao começo do Array
+nomes.unshift("Ana")
+console.log("Conteúdo do array:" + nomes[0])
+
+//removendo elementos do final do array
+nomes.pop()
+console.log("Conteúdo do array:" + nomes[3])
+
+//Removendo elementos do inicio do Array
+nomes.shift()
+console.log("Conteúdo do array:" + nomes[0])
+
+//localizando um elemento no Array
+console.log("Localizando um elemento no array : " + nomes.indexOf ("Carlos"))
+
+//Removendo um elemento do Array com localização
+let posicao = nomes.indexOf("João")
+nomes.splice(posicao,1)
+
+//Interando um Array
+for(var i=0; i <nomes.length; i++){
+    console.log("Nome: "+ nomes[i])
+}
+
+//Objeto -JSON
+var pessoa = {
+    nome: "",
+    sobrenome: "",
+    idade: "",
+
+}
+
+// LOOP FOR OF - Interando um array
+for(let nome of nomes){
+    pessoa.nome = nome
+    console.log("Valor de nomes: " +nome)
+}
+//For IN - Interando um objeto
+for(let indice in nomes){
+    console.log("Valor de pessoa :" +nomes[indice])
+}
