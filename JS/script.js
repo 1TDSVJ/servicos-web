@@ -9,6 +9,7 @@ Comentário de bloco em JS
 
 /* Declaração de variáveis com var
 Basicamente é o escopo aumentado */
+/*
 var nome = "Gustavo"
 console.log('Meu nome é: ' + nome)
 
@@ -45,3 +46,62 @@ elementoBotao.addEventListener("mouseover",function(){
     elementoBotao.style.width = "60px"
 })
 
+*/
+
+//var nome = "Gustavo"
+
+//ARRAY - Vetores
+var nomes = ["Gustavo", "Carlos", "João", "Maria"]
+
+//Acessando um elemento do array
+console.log("Conteúdo do array : " + nomes[2])
+
+//Tamanho do array
+console.log("Tamanho do array : " + nomes.length)
+
+//Adicionando elementos ao final do array
+nomes.push("Pedro")
+console.log("Conteúdo do array : " + nomes[4])
+
+//Adicionando elementos ao inicio do array
+nomes.unshift("Ana")
+console.log("Conteúdo do array : " + nomes[0])
+
+//Removendo elementos do final do array
+nomes.pop()
+console.log("Conteúdo do array : " + nomes[3])
+
+//Removendo elementos do inicio do array
+nomes.shift()
+console.log("Conteúdo do array : " + nomes[0])
+
+//Localizando um elemento no array
+console.log("Localizando um elemento no array : " + nomes.indexOf
+("Carlos"))
+
+//Removendo um elemento do array com Localização
+let posicao = nomes.indexOf("João")
+nomes.splice(posicao,1)
+console.log("Conteúdo do array : " + nomes[2])
+
+//Iterando um array
+for(let i = 0; i < nomes.length; i++){
+    console.log("Nome : " + nomes[i])
+}
+
+//LOOP FOR OF - Interando um array
+for(let nome of nomes){ //nome e um elemento do array
+    //Objeto - JSON
+var pessoa = {
+    nome : "",
+    sobrenome : "",
+    idade : "",
+}
+    pessoa.nome = nome
+    console.log("Valor de nomes: " + nome)
+}
+
+//FOR IN - Iterando um objeto
+for(let indice in nomes){ //indice é um elemento do objeto
+    console.log("Valor de pessoa : " + nomes[indice])
+}
