@@ -6,6 +6,7 @@
 //console.log('Mensagem que veio do arquivo Externo.')
 //document.write('Escrevendo uma mensagem com documet!') // document -> gerencia todos os objetos dentro do DOM (É o HTML, dentro dele pode-se ter acesso as tags).
 
+/*
 
 // Declarando variáveis com var.
 // Basicamente o que se tem com var é o escopo aumentado.
@@ -44,3 +45,46 @@ elementoBotao.addEventListener("mouseout", function(){
     elementoBotao.style.height = "50"
     elementoBotao.style.width = "100px"
 })
+
+*/
+
+//var nome = "Alê"
+var nomes = ["Alê", "Diogo", "Mateus", "Heitor"]
+
+//Adicionando elementos ao final do array
+nomes.push("Brando")
+console.log("Conteúdo do array: " + nomes[4])
+
+//Adicionando elementos ao inicio do array
+nomes.unshift("Jo")
+console.log("Conteúdo do array: " + nomes[0] )
+
+//Removendo elementos do final do array
+nomes.pop()
+console.log("Conteúudo do array: " + nomes[3])
+
+//Removendo elementos do inicio do array
+nomes.shift()
+console.log("Conteúudo do array: " + nomes[0])
+
+//Localizando um elemento no array
+console.log("Localizando um elemento no array: " + nomes.indexOf("Diogo"))
+
+//Removendo um elemento do array com localização
+let posicao = nomes.indexOf("Diogo")
+nomes.splice(posicao,1)
+
+//Iterando um array
+for(let i = 0; i< nomes.length ; i++){
+   console.log("Nome: " + nomes[i])
+}
+
+// Loop For Of - Iterando um array
+for(let nome of nomes){ // nome é um elemento do array
+    console.log("Valor de nomes: " + nome)
+}
+
+// For In - Iterando um objeto
+for(let indice in nomes){ //indice é um indice do array
+    console.log("Valor de pessoa: " + nomes[indice])
+}
