@@ -5,7 +5,7 @@
 //Mensagem de console vinda do arquivo externo JS.
 //console.log('Mensagem que veio do arquivo externo.')
 //document.write('Escrevendo uma mensagem com document!.')
-
+/*
 //Declaração de variaveis com var.
 //Basicamente o que se tem com var é o escopo aumentado
 var nome = "Pedro"
@@ -47,7 +47,59 @@ elementoBotao.addEventListener("mouseout",function(){
     elementoBotao.style.height = "50px"
 })
 
+*/
 
+//var nome = "Pedro" 
+
+//ARRAY - Vetores
+var nomes = ["Pedro","João","Maria","José"]
+
+//Acessando um elemento do array
+console.log("Conteudo do array: " + nomes[0])
+
+//tamanho do array
+console.log("Tamanho do array: " + nomes.length)
+
+//Adicionando um elemento ao final do  array
+nomes.push("Fulano")
+console.log("Conteudo do array: " + nomes[4])
+
+//Adicionando um elemento ao inicio do array
+nomes.unshift("Ciclano")
+console.log("Conteudo do array: " + nomes[0])
+
+//Removendo um elemento do array
+nomes.pop()
+console.log("Conteudo do array: " + nomes[3])
+
+//Removendo um elemento do inicio do array
+nomes.shift()
+console.log("Conteudo do array: " + nomes[0])
+
+//localizando um elemento no array
+console.log("Localizando um elemento no array: " + nomes.indexOf
+("Maria")) 
+
+//removendo um elemento do array com localização
+let posicao = nomes.indexOf("Maria")
+nomes.splice(posicao,1)
+
+
+//Loop For OF - Iterando um array
+for(let nome of nomes){ //i é o indice do array e nomes é o valor do array
+    console.log("Valor de Nome : " + nomes[nome])
+}
+
+//FOR in - Iterando um Objeto
+for(let indice in nomes){
+    console.log("Valor de Pessoa : " + nomes[indice])
+}
+
+
+//Iterando um array
+for(let i = 0; i < nomes.length; i++){
+    console.log("Valor de Nome : "+ nomes[i])
+}
 
 
 
