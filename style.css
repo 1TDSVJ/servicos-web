@@ -27,7 +27,7 @@ p{
 }
 
 .brilhante{
-    color: rgb(50, 112, 228);
+    color: rgb(0, 2, 5);
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
 }
@@ -44,5 +44,7 @@ table tr:nth-child(odd){
     background-color: #ccc;
 }
 table tr:hover{
-    background-color:rgb(230, 18, 18);
+    background-color:rgb(17, 228, 210);
 }
+
+
